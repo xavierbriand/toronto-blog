@@ -82,4 +82,4 @@ La cuisine est équipée d'électroménagers Frigidaire :
 
 .. _Situé à l'ouest de l'hypercentre: http://goo.gl/maps/PiIT
 
-.. _La visite guidée: http://www.flickr.com/photos/xavierbriand/7619045852/in/photostream
+.. _La visite guidée: http://www.flickr.com/photos/xavierbriand/7619366832/in/photostream
