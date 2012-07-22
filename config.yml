@@ -1,0 +1,9 @@
+active_modules: [tags, blog, latex]
+auhtor:         "Caroline & Xavier"
+canonical_url:  "http://canada.xavierbriand.net/"
+feed:
+    name:       Caroline et Xavier à Toronto
+modules:
+    blog:
+        use_pagination: True
+        per_page:       10

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}Accueil{% endblock %} | Caroline & Xavier à Toronto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Caro et Xavier">
+
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="/static/css/custom.css" rel="stylesheet">
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link rel="icon" type="image/png" href="/static/favicon.png" />
+        <link rel="alternate" type="application/atom+xml" title="Caroline et Xavier à Toronto" href="http://canada.xavierbriand.net/feed.atom" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row"><div class="span6 offset3">
+                <div class="page-header">
+                    <a href="/"><i class="icon-home"></i></a>
+                    <a href="http://www.flickr.com/photos/xavierbriand/sets/72157630680947802/" title="Les photos"><i class="icon-camera"></i></a>
+                    <a href="/feed.atom"><i class="icon-fire"></i></a>
+                    <h1> {% block main_title %}Caroline et Xavier à Toronto{% endblock %}</h1>
+                </div>
+                {% block body %}{% endblock %}
+            </div></div>
+        </div>
+    </body>
+</html>
+

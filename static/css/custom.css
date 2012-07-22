@@ -1,0 +1,10 @@
+body {
+    background: url(../img/maple-leaf.jpg) no-repeat fixed bottom right #ffffff;
+}
+.container > .row > div.span6 {
+    background-color: #ffffff;
+}
+p {
+    text-align: justify;
+    text-justify: distribute;
+}

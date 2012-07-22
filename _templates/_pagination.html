@@ -1,0 +1,15 @@
+<div class="pagination pagination-centered">
+    <ul>
+    {% if pagination.has_prev %}
+        <li><a href="{{ link_to(pagination.url_key, page=pagination.page - 1) }}">&larr; Next</a></li>
+    {% endif %}
+
+    {% if pagination.has_prev and pagination.has_next %}
+        |
+    {% endif %}
+
+    {% if pagination.has_next -%}
+        <li><a href="{{ link_to(pagination.url_key, page=pagination.page + 1) }}">Previous &rarr;</a></li>
+    {%- endif -%}
+    </ul>
+</div>

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <p class="lead">On se casse de France, suivez un peu notre aventure à Toronto</p>
+    <table class="table table-condensed">
+    {%- for entry in pagination.get_slice() %}
+        <tr>
+            <td width="16%">
+                 <span class="label">{{ format_date(entry.pub_date, format='medium') }}</span> 
+            </td>
+            <td>
+                <h3><a href="{{ link_to('page', slug=entry.slug) }}">{{ entry.title }}</a></h3>
+                {% if entry.summary %}
+                    <p>{{ entry.summary }}</p>
+                {% endif %}
+                {% if entry.tags %}
+                    <small>
+                    {% for tag in entry.tags|sort(case_sensitive=true) %}
+                        <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
+                    {% endfor %}
+                    </small>
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </table>
+
+    {% if show_pagination and pagination.pages > 1 %}
+        {{ pagination }}
+    {% endif %}
+{% endblock %}

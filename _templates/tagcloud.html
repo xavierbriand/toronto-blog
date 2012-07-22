@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}Tags{% endblock %}
+{% block main_title %}
+Tags
+{% endblock %}
+{% block body %}
+    <table class="table table-striped">
+    {%- for tag in get_tags(limit=50) %}
+        <tr>
+            <td>
+                <a href="{{ link_to('tag', tag=tag.name) }}" style="font-size: {{
+                    tag.size }}%">{{ tag.name }}</a>
+            </td>
+        </tr>
+    {%- endfor %}
+    </table>
+{% endblock %}
