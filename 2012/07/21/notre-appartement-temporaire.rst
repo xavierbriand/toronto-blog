@@ -10,7 +10,7 @@ Notre appartement temporaire
 est dans ce qu'on appelle ici un Condo (pour condominium), une résidence hôtel
 avec gardien, parking, salle de réception, ...
 
-Le notre a de particulier au'il a été designé par Stark. Bon, à part un jolie
+Le notre a de particulier au'il a été designé par Stark. Bon, à part un joli
 hall d'entrée, des têtes d'antilopes en chrome dans le salon et des mures peints
 en blanc, y'a rien de très particulier. Le vis-à-vis ira pour 3 semaines.
 

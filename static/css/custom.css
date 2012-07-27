@@ -1,5 +1,6 @@
 body {
     background: url(../img/maple-leaf.jpg) no-repeat fixed bottom right #ffffff;
+    margin-bottom: 5em;
 }
 .container > .row > div.span6 {
     background-color: #ffffff;
@@ -7,4 +8,14 @@ body {
 p {
     text-align: justify;
     text-justify: distribute;
+}
+div > img.thumbnail,
+div > a img.thumbnail {
+    display: block;
+    margin-bottom: 1em;
+    width: 567px;
+}
+
+.thumbnails > li {
+    margin-left: 40px;
 }
