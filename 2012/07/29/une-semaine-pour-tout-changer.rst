@@ -4,8 +4,8 @@ summary: |
     Semaine chargée, entre recherche d'appartement et recherche de job pour
     Caro.
 
-Unse semaine pour tout changer
-==============================
+Une semaine pour tout changer
+=============================
 
 **C** : Le slogan de l’émission D&Co de Valérie Damidot convient bien pour
 résumer nos débuts au Canada. En un peu plus d’une semaine, nous avons :
