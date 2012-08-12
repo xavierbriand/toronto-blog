@@ -12,7 +12,7 @@ centre de Toronto et hop, me voilà dans ma nouvelle entreprise : Experience Poi
 
 Comme c'est le début du mois, je commence directement par une réunion dans la salle
 commune : point sur l'activité de l'entreprise. Tout y passe, des
-résultats à l'avancement des développements en passant par le dernier outils de
+résultats à l'avancement des développements en passant par le dernier outil de
 reporting et bien sur, ma présentation. L'ambiance est très bonne.
 
 Ensuite : mise en place de mon poste de travail, présentation des outils,
