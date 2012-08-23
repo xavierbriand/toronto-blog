@@ -34,3 +34,7 @@ lui laisser le temps de dégager tranquille.
 
 Et voici mon premier Doggy Bag…
 
+.. image:: http://farm9.staticflickr.com/8288/7842635262_f6d8141d11.jpg
+  :class: thumbnail
+  :target: http://www.flickr.com/photos/xavierbriand/7842635262/in/photostream/lightbox/
+
